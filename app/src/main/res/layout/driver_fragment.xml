@@ -1,0 +1,40 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fl_home"
+    tools:context=".bottomnavigation.DriverFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/driverPhoto"
+            android:layout_width="145dp"
+            android:layout_height="147dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="169dp"
+            android:layout_marginTop="74dp"
+            android:contentDescription="@string/driver_photo_decription"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/driverNameTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/driverPhoto"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="139dp"
+            android:layout_marginTop="199dp"
+            android:layout_marginEnd="88dp"
+            android:layout_marginBottom="-69dp"
+            android:text="@string/driver_not_found"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+    </RelativeLayout>
+
+</FrameLayout>

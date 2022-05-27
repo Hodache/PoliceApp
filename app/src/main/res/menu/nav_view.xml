@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_driver"
+        android:title="@string/title_driver" />
+
+    <item
+        android:id="@+id/nav_cars"
+        android:title="@string/title_cars" />
+
+    <item
+        android:id="@+id/nav_fines"
+        android:title="@string/title_fines" />
+
+</menu>

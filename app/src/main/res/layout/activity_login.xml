@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loginLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/loginInput"
+        android:layout_width="216dp"
+        android:layout_height="48dp"
+        android:layout_alignTop="@id/passwordInput"
+        android:layout_marginTop="-83dp"
+        android:layout_marginBottom="50dp"
+        android:hint="@string/login_input"
+        android:singleLine="true"
+        android:textColorHint="#A1887F"
+        android:textColorLink="#1E88E5"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="146dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:text="@string/login_button"
+        android:textColorLink="#1E88E5" />
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/loginButton"
+        android:layout_marginTop="-78dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="@string/password_input"
+        android:inputType="textPassword"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/authStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/loginInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-52dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="16dp" />
+
+</RelativeLayout>
